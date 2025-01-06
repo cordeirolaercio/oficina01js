@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prefeitura Municipal de Fortaleza</title>
+    <link rel="stylesheet" href="css/style.css">
+    </head>
+<body>
+    <header>
+        <div class="logo">
+            <img src="img/logo-pmf.png" alt="logo prefeitura Municipal de Fortaleza">
+            <nav>
+                <ul>
+                    <li><a href="https://www.fortaleza.ce.gov.br/" target="_blank"><strong>SITE OFICIAL</strong></a></li>
+                </ul>
+            </nav>
+        </div>    
+    </header>
+    <article>
+        <h1 id="titulo">A SAÚDE COMEÇA COM UMA ALIMENTAÇÃO SAUDÁVEL</h1>
+        <p>A Prefeitura Municipal de Fortaleza visando a saúde e informação dos fortalezenses, disponibiliza a tabela de IMC (Índice de Massa Corporal), para que seus habitantes se cuidem e se informem sobre como está seu peso. </p>
+        <p>O Índice de Massa Corporal (IMC) é uma das principais ferramentas, adotada inclusive pela Organização Mundial de Saúde (OMS), para calcular o chamado “peso ideal”. Obtido a partir do peso e da altura do indivíduo, o IMC também aponta níveis de magreza e obesidade, que são usados para nortear o trabalho de profissionais de saúde e de educadores físicos.</p>
+        <p>Índices abaixo de 18.5 não são considerados saudáveis segundo a OMS, entretanto, a pessoa pode muito bem apresentar um biotipo longilíneo e ser saudável. Indivíduos com IMCs entre 18.5 e 25 são considerados normais; nesse caso, a necessidade de emagrecer é, na maioria das vezes, de ordem estética. Entre 25 e 30, o indivíduo é considerado acima do peso, apresentando maiores chances de apresentar complicações, como diabetes, hipertensão arterial e hipercolesterolemia. Pessoas com IMCs acima de 30 são consideradas obesas, por isso, em virtude do alto risco de complicações metabólicas, é extremamente recomendável procurar um médico.</p>
+        <p>Hábitos alimentares saudáveis constituem um dos principais pilares para um estilo de vida saudável estando associados a diversos benefícios: prevenção e controle de doenças crônicas não transmissíveis (DCNT – obesidade, diabetes, hipertensão, doenças cardiovasculares e alguns tipos de câncer); funcionamento adequado do sistema imunológico; mais disposição para atividades do cotidiano e prática de atividades físicas; desenvolvimento da memória e da capacidade de aprendizado; melhora da qualidade do sono; autocuidado e sensação de bem estar, entre outros.</p>
+        <p>Uma alimentação adequada, saudável e sustentável é caracterizada pelo consumo diário e prioritário de alimentos in natura e minimamente processados, predominantemente de origem vegetal (frutas, verduras, legumes, cereais integrais, leguminosas e oleaginosas), sem excessos de óleos, gorduras, sal e açúcar.</p> 
+        <p>CONFIRA COMO ESTÁ SEU ÍNDICE DE MASSA CORPORAL!</p>      
+    </article>
+    <section>
+        <img id="imgimc" src="img/imc.png" alt="exemplos de imc"> 
+        <div class="container">
+            <h1>CALCULADORA DE IMC</h1>
+            <form action="#">
+                <div class="calc">
+                    <label for="altura">Altura(M)</label>
+                    <input type="number" placeholder="Ex: 1.70" id="altura">
+                </div>
+                <div class="calc">
+                    <label for="peso">Peso(KG)</label>
+                    <input type="number" placeholder="Ex: 80" id="peso">
+                </div>
+                <div class="botoes">
+                    <button type="submit" onclick="imcResultado()" id="calcular">Calcular</button>
+                    <button type="reset" onclick="window.location.reload()"id="limpar">Limpar</button>
+                </div>
+                <div class="resultado">
+                    
+                </div>
+            </form>
+        </div>   
+    </section>
+    <footer id="baixo">
+        <img id="imgbaixo" src="img/logo-branca.png" alt="">
+       
+    </footer>
+    <script src="js/script.js"></script>
+</body>
+</html>
