@@ -43,6 +43,11 @@ nav ul li a:hover{
     display: flex;
     justify-content: center;    
 
+}
+#imgalimentos{
+    max-width: 800px;
+    display: block;
+    margin: auto;
 }    
 #imgimc{
     padding: 20px;
